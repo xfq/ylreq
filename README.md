@@ -8,6 +8,8 @@ This document summarizes text composition requirements in the Yi writing system.
 
 Modern Yi is a syllabic script. In modern standardized Nuosu orthography, each syllable is represented by a Yi syllable character and words may contain one or more syllables separated by spaces. The script has no case distinction and does not use cursive joining. Yi content is commonly mixed with European numerals, Latin text, Chinese text, and punctuation.
 
+Early Yi was logographic. Over time, a large number of syllabic symbols were incorporated, transforming it into a logo-syllabic script that is primarily logographic but supplemented by phonetic elements. The currently prevalent Liangshan Standard Yi script is purely syllabic, whereas Yunnan Standard Yi script remains logo-syllabic.
+
 ## Text direction
 
 ### Writing mode
