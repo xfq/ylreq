@@ -1,12 +1,14 @@
 # Requirements for Yi Text Layout
 
+[简体中文](README.zh-Hans.md)
+
 ## Abstract
 
 This document summarizes text composition requirements in the Yi writing system. One of the goals of the task force is to describe issues for Yi layout, another is to describe correspondences with existing standards (such as Unicode), as well as to encourage vendors to implement relevant features correctly.
 
 ## Introduction
 
-Modern Yi is a syllabic script. In modern standardized Nuosu orthography, each syllable is represented by a Yi syllable character and words may contain one or more syllables separated by spaces. The script has no case distinction and does not use cursive joining. Yi content is commonly mixed with European numerals, Latin text, Chinese text, and punctuation.
+Modern Yi is a syllabic script. In modern standardized Nuosu orthography, each syllable is represented by a Yi character and words may contain one or more syllables separated by spaces. The script has no case distinction and does not use cursive joining. Yi content is often mixed with European numerals, Latin text, and Chinese text.
 
 Early Yi was logographic. Over time, a large number of syllabic symbols were incorporated, transforming it into a logo-syllabic script that is primarily logographic but supplemented by phonetic elements. The currently prevalent Liangshan Standard Yi script is purely syllabic, whereas Yunnan Standard Yi script remains logo-syllabic.
 
@@ -16,7 +18,7 @@ Early Yi was logographic. Over time, a large number of syllabic symbols were inc
 
 Modern Yi text MUST support horizontal, left-to-right layout. The default inline progression is left to right and the block progression is top to bottom.
 
-Historical and traditional material may use vertical writing mode. Implementations SHOULD support Yi in vertical writing mode, but the preferred column order and punctuation orientation need validation with source material.
+Historical material may use vertical writing mode. Implementations SHOULD support Yi in vertical writing mode, but the preferred text direction and punctuation orientation need validation with source material.
 
 ### Bidirectional text
 
@@ -30,7 +32,7 @@ TBD
 
 ### Context-based shaping and positioning
 
-One encoded Yi syllable character MUST map to one visible syllable glyph. Yi syllables MUST NOT be joined, ligated, reordered, or substituted according to neighboring Yi syllables.
+Yi syllables MUST NOT be joined, ligated, reordered, or substituted according to neighboring Yi syllables.
 
 ### Cursive text
 
@@ -46,7 +48,7 @@ In 2007, China submitted a proposal to encode the Yunnan Standard Yi script, but
 
 ### Grapheme, word segmentation, and selection
 
-Grapheme segmentation MUST expose each Yi syllable as one grapheme cluster.
+Grapheme segmentation algorithms MUST segment each Yi syllable as one grapheme cluster.
 
 ## Punctuation and inline features
 
@@ -113,5 +115,6 @@ TBD
 ## Open questions
 
 * Which Yi varieties besides modern Nuosu require distinct word-segmentation, punctuation, or number-format rules?
-* Which vertical-writing conventions are still used in contemporary or historical Yi publications?
-* Which emphasis marks and annotation styles are preferred?
+* Does vertical-writing exist in contemporary or historical Yi publications?
+* Any emphasis marks and annotation styles?
+* …
