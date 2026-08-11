@@ -8,6 +8,8 @@ This document summarizes text composition requirements in the Yi writing system.
 
 ## Introduction
 
+The Yi people are the sixth largest ethnic minority group in China, with a population of nearly ten million. The Yi script is one of the oldest writing systems still in use among China's ethnic minorities. It is the primary carrier of Yi literature, history, and cultural knowledge, and is central to Yi cultural identity. Supporting the Yi script in digital text layout is therefore important for preserving and promoting Yi culture in the digital age.
+
 Modern Yi is a syllabic script. In modern standardized Nuosu orthography, each syllable is represented by a Yi character and words may contain one or more syllables separated by spaces. The script has no case distinction and does not use cursive joining. Yi content is often mixed with European numerals, Latin text, and Chinese text.
 
 Early Yi was logographic. Over time, a large number of syllabic symbols were incorporated, transforming it into a logo-syllabic script that is primarily logographic but supplemented by phonetic elements. The currently prevalent Liangshan Standard Yi script is purely syllabic, whereas Yunnan Standard Yi script remains logo-syllabic.
