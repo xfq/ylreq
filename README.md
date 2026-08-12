@@ -18,6 +18,8 @@ Early Yi was logographic. Over time, a large number of syllabic symbols were inc
 
 ### Writing mode
 
+The 1975 *Standardization Scheme for Yi Script* rotated traditional Yi glyphs 90 degrees clockwise, changing them from a "horizontal" posture to an upright, "vertical" one and changing the writing direction from vertical to horizontal.
+
 Modern Yi text MUST support horizontal, left-to-right layout. The default inline progression is left to right and the block progression is top to bottom.
 
 Historical material may use vertical writing mode. Implementations SHOULD support Yi in vertical writing mode, but the preferred text direction and punctuation orientation need validation with source material.
