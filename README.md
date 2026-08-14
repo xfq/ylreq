@@ -4,7 +4,7 @@
 
 ## Abstract
 
-This document summarizes text composition requirements in the Yi writing system. One of the goals of the task force is to describe issues for Yi layout, another is to describe correspondences with existing standards (such as Unicode), as well as to encourage vendors to implement relevant features correctly.
+This document describes Yi text layout requirements and open research questions. It also relates those requirements to existing standards such as Unicode and CSS, with the aim of encouraging accurate implementations.
 
 ## Introduction
 
@@ -48,7 +48,7 @@ Yi MUST be treated as non-cursive text.
 
 Unicode officially included the Liangshan Standard Yi script in version 3.0. The encoding range for Yi syllables is U+A000–U+A48C, comprising 1,164 syllables (syllables with diacritics are encoded individually and cannot be decomposed into a base syllable plus a combining diacritic) and one syllable iteration mark (U+A015 ꀕ, erroneously named "YI SYLLABLE WU"). The encoding range for Yi radicals is U+A490–U+A4CF, comprising 55 radicals.
 
-In 2007, China submitted a proposal to encode the Yunnan Standard Yi script, but it has not yet been included in Unicode, nor has a code block been allocated for it.
+China prepared the preliminary Classical Yi encoding proposal N3288 in 2007. It was registered by the Unicode Technical Committee in 2008 as L2/08-193. The proposal concerns Classical Yi and should not be described as an encoding proposal for Yunnan Standard Yi. A later document, L2/22-183, describes work to organize and standardize Yi ideographs in Yunnan, Guizhou, Sichuan, and other regions. As of Unicode 17.0, these Yi ideographs have not been assigned code points.
 
 ### Grapheme, word segmentation, and selection
 
@@ -76,7 +76,7 @@ TBD
 
 ### Line breaking
 
-TBD
+Unicode's default line-break data classifies U+A000..U+A014 and U+A016..U+A48C as ideographic, ordinarily allowing breaks between adjacent Yi syllables. U+A015, the syllable iteration mark MUST NOT be separated from the preceding syllable.
 
 ### Hyphenation
 
@@ -120,5 +120,6 @@ TBD
 
 * Which Yi varieties besides modern Nuosu require distinct word-segmentation, punctuation, or number-format rules?
 * Does vertical-writing exist in contemporary or historical Yi publications?
-* Any emphasis marks and annotation styles?
+* How should Yi text be justified, and how should spacing around Latin letters and European digits be handled?
+* Are there established emphasis marks and annotation styles?
 * …
